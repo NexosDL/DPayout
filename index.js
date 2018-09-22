@@ -12,8 +12,8 @@ bot.on('message', message => {
     if (message.content === prefix + "help"){
         var imagetest = new Discord.RichEmbed()
             .setTitle(message.author.username)
-            .addField("DestinyPayout", 'Invitation Officiel', true)
-            .addField("DestinyLife", 'Invitation Officiel', true)
+            .addField("DestinyPayout", '[Invitation Officiel](https://discord.gg/SgqsntV)', true)
+            .addField("DestinyLife", '[Invitation Officiel](https://discord.gg/SgqsntV)', true)
             .setThumbnail("https://cdn.discordapp.com/attachments/492818116720459814/492829342632640538/logo-dp2.png")
             .setColor("#0xFF8000")
             .setFooter("Nexøs. | Guillaume#8825 ❤️")
