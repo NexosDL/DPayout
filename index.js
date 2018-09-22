@@ -14,7 +14,7 @@ bot.on('message', message => {
             .setTitle(message.author.username)
             .addField("*?ping*", 'Le bot répond : :ping_pong: Pong', true)
             .addField("Soon...", "Soon...", true)
-            .setImage("https://cdn.discordapp.com/attachments/492818116720459814/492829342632640538/logo-dp2.png")
+            .setThumbnail("https://cdn.discordapp.com/attachments/492818116720459814/492829342632640538/logo-dp2.png")
             .setColor("#0xFF8000")
             .setFooter("Nexøs. | Guillaume#8825 ❤️")
             message.channel.sendEmbed(imagetest);
